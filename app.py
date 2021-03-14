@@ -11,9 +11,9 @@ while q.lower() != "q":
     while invalid:
         try:
             weight = float(input("Please enter your weight: "))
-            if weight < 30:
+            if weight < 5:
                 print("Is it possible to be so lite?")
-            elif weight > 250:
+            elif weight > 500:
                 print("That's a lot!")
             else:
                 invalid = False
